@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mijn Craft</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS Styles-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="body-main-container bg-white">
+      <div class="top-container">
+        <!-- Navbar -->
+        <header class="bg-white shadow-md">
+          <div
+            class="container mx-auto px-[14px] py-[14px] flex justify-between md:justify-center items-center gap-[40px]"
+          >
+            <!-- Logo and Company Name -->
+            <a href="#" class="flex items-center">
+              <img src="./icons/logo.png" alt="Logo" />
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav id="desktop-nav" class="hidden md:flex space-x-6 items-center">
+              <a
+                href="#"
+                class="text-[#00306e] text-[15px] font-semibold hover:text-[#D2093C] px-[15px] py-[15px]"
+                >Home</a
+              >
+              <div class="relative group">
+                <a
+                  href="#"
+                  class="text-[#00306e] text-[15px] font-semibold hover:text-[#D2093C] px-[15px] py-[15px]"
+                >
+                  Onze documenten
+                  <span class="ml-1">▼</span>
+                </a>
+                <!-- Dropdown -->
+                <div
+                  class="absolute hidden group-hover:block bg-white shadow-md mt-2 py-2 rounded-md"
+                >
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:text-[#D2093C] text-sm text-[#00306e]"
+                    >Sub-link 1</a
+                  >
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:text-[#D2093C] text-sm text-[#00306e]"
+                    >Sub-link 2</a
+                  >
+                </div>
+              </div>
+              <a
+                href="#"
+                class="text-[#00306e] text-[15px] font-semibold hover:text-[#D2093C] px-[15px] py-[15px]"
+                >Onze prijzen</a
+              >
+              <div class="relative group">
+                <a
+                  href="#"
+                  class="text-[#00306e] text-[15px] font-semibold hover:text-[#D2093C] px-[15px] py-[15px]"
+                >
+                  Blog
+                  <span class="ml-1">▼</span>
+                </a>
+                <!-- Dropdown -->
+                <div
+                  class="absolute hidden group-hover:block bg-white shadow-md mt-2 py-2 rounded-md"
+                >
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:text-[#D2093C] text-sm text-[#00306e]"
+                    >Sub-link 1</a
+                  >
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:text-[#D2093C] text-sm text-[#00306e]"
+                    >Sub-link 2</a
+                  >
+                </div>
+              </div>
+              <a
+                href="#"
+                class="text-[#00306e] text-[15px] font-semibold hover:text-[#D2093C] px-[15px] py-[15px] border-r-[#DFE2E5] border-r-[1px]"
+                >Contact</a
+              >
+              <div class="flex items-center">
+                <span class="mr-1">📞</span>
+                <a
+                  href="tel:+32 50 500 500"
+                  class="text-[#0F1216] text-[17px] font-semibold hover:text-[#3270FC]"
+                  >+32 50 500 500</a
+                >
+              </div>
+              <a
+                href="#"
+                class="bg-[#3270FC] text-[15px] font-semibold text-white px-[26px] py-[10px] rounded-[6px] flex items-center hover:bg-blue-700"
+              >
+                Uw contract →
+              </a>
+            </nav>
+
+            <!-- Mobile Toggle Button -->
+            <button
+              id="menu-toggle"
+              class="md:hidden text-blue-800 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+
+            <!-- Mobile Navigation -->
+            <nav
+              id="mobile-nav"
+              class="absolute top-16 left-0 w-full bg-white shadow-lg hidden flex flex-col items-start space-y-4 p-4 md:hidden"
+            >
+              <a href="#" class="text-[#00306e] text-[15px] font-semibold"
+                >Home</a
+              >
+              <a href="#" class="text-[#00306e] text-[15px] font-semibold"
+                >Onze documenten</a
+              >
+              <a href="#" class="text-[#00306e] text-[15px] font-semibold"
+                >Onze prijzen</a
+              >
+              <a href="#" class="text-[#00306e] text-[15px] font-semibold"
+                >Blog</a
+              >
+              <a href="#" class="text-[#00306e] text-[15px] font-semibold"
+                >Contact</a
+              >
+              <div class="flex items-center text-gray-800">
+                <span class="mr-1 mt-1">📞</span>
+                <span>+32 50 500 500</span>
+              </div>
+              <a
+                href="#"
+                class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm flex items-center hover:bg-blue-700"
+              >
+                Uw contract →
+              </a>
+            </nav>
+          </div>
+        </header>
+        <!-- Hero Section -->
+      </div>
+    </div>
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>

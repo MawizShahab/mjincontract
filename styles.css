@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  transition: all 0.5s ease 0s;
+}
+
+/* .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  margin: 0 !important;
+} */
+
+/* .relative.group,
+.relative.group a {
+  margin: 0 !important;
+} */
+
+/* .top-container {
+  background-image: url("./images/hero-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+} */
+
+@media screen and (max-width: 768px) {
+}
