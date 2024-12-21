@@ -18,20 +18,30 @@ nav a {
   transition: all 0.5s ease 0s;
 }
 
-/* .space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  margin: 0 !important;
-} */
+.search-form input {
+  background: #fff;
+  border-radius: 0;
+  padding: 14px 18px 16px 25px;
+  box-shadow: 0 20px 20px rgba(0, 14, 32, 0.1);
+  width: 570px;
+  margin: 40px auto 25px;
+  position: relative;
+  border-left: 3px solid #3270fc;
+  outline: 0;
+}
 
-/* .relative.group,
-.relative.group a {
-  margin: 0 !important;
-} */
+.search-form [type="text"] {
+  color: #4b5b70;
+  font-size: 14px;
+  /* width: 100%; */
+}
 
-/* .top-container {
-  background-image: url("./images/hero-bg.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-} */
+.search-form button {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
 
 @media screen and (max-width: 768px) {
 }
