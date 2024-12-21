@@ -42,6 +42,9 @@ nav a {
   right: 20px;
 }
 
-
 @media screen and (max-width: 768px) {
+  .search-form,
+  .search-form [type="text"] {
+    width: 100%;
+  }
 }
