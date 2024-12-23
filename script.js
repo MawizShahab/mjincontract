@@ -16,7 +16,7 @@ const cardsData = [
     title: "Arbeidscontracten",
     description: "Beheer arbeidsrelaties met zorgvuldigheid.",
     personName: "Justin Case",
-    personImage: "/images/cards/profile1.png",
+    personImage: "./images/cards/profile1.png",
     price: "€34.00",
   },
   {
@@ -26,7 +26,7 @@ const cardsData = [
     title: "Vastgoedooreenkomsten",
     description: "Stel huurcontracten op die voldoen aan wetgeving.",
     personName: "Natasha Vandekerckhove",
-    personImage: "/images/cards/profile2.png",
+    personImage: "./images/cards/profile2.png",
     price: "€89.00",
   },
   {
@@ -36,7 +36,7 @@ const cardsData = [
     title: "Zakelijke overeenkomsten",
     description: "Professionele contracten voor samenwerking.",
     personName: "Will Barrow",
-    personImage: "/images/cards/profile3.png",
+    personImage: "./images/cards/profile3.png",
     price: "€39.00",
   },
   {
@@ -47,7 +47,7 @@ const cardsData = [
     description:
       "Maak snel en eenvoudig juridisch correcte contracten voor autoverkoop.",
     personName: "Will Barrow",
-    personImage: "/images/cards/profile4.png",
+    personImage: "./images/cards/profile4.png",
     price: "€34.00",
   },
   {
@@ -58,7 +58,7 @@ const cardsData = [
     description:
       "Bescherm uw intellectuele eigendom met duidelijke licentievoorwaarden.",
     personName: "Penny Tool",
-    personImage: "/images/cards/profile5.png",
+    personImage: "./images/cards/profile5.png",
     price: "€34.00",
   },
   {
@@ -69,7 +69,7 @@ const cardsData = [
     description:
       "Contracten voor freelancers en opdrachtgevers, op maat gemaakt.",
     personName: "Auston Ager",
-    personImage: "/images/cards/profile2.png",
+    personImage: "./images/cards/profile2.png",
     price: "€14.00",
   },
   {
@@ -79,7 +79,7 @@ const cardsData = [
     title: "Zakelijke overeenkomsten",
     description: "Professionele contracten voor samenwerking.",
     personName: "Will Barrow",
-    personImage: "/images/cards/profile3.png",
+    personImage: "./images/cards/profile3.png",
     price: "€39.00",
   },
   {
@@ -89,7 +89,7 @@ const cardsData = [
     title: "Arbeidscontracten",
     description: "Beheer arbeidsrelaties met zorgvuldigheid.",
     personName: "Justin Case",
-    personImage: "/images/cards/profile1.png",
+    personImage: "./images/cards/profile1.png",
     price: "€34.00",
   },
 
