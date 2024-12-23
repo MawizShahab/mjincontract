@@ -47,4 +47,8 @@ nav a {
   .search-form [type="text"] {
     width: 100%;
   }
+
+  .filter-tab{
+    margin-left: 0 !important;
+  }
 }
